@@ -17,19 +17,19 @@ int main(){
 	struct Concorrente concorrentes[quantidadeConcorrentes], concorrenteVencedor;
 	
 	for(int concorrenteTemp = 1; concorrenteTemp <= quantidadeConcorrentes; concorrenteTemp++){
-		printf("\nQual o nome do %d� concorrente? ", concorrenteTemp);
+		printf("\nQual o nome do %dº concorrente? ", concorrenteTemp);
 		scanf("%s", &concorrentes[concorrenteTemp].nome);
 		fflush(stdin);
 	}
 	
-	printf("\nQuantos juizes ter�o? ");
+	printf("\nQuantos juizes terão? ");
 	scanf("%d", &quantidadeJuizes);
 	fflush(stdin);
 	
 	for(int concorrenteTemp = 1; concorrenteTemp <= quantidadeConcorrentes; concorrenteTemp++){
 		for(int x = 1; x <= quantidadeJuizes; x++){
 			system("cls");
-			printf("\nQual a nota do %d� Juiz para o %s? ", x, concorrentes[concorrenteTemp].nome);
+			printf("\nQual a nota do %dº Juiz para o %s? ", x, concorrentes[concorrenteTemp].nome);
 			scanf("%d", &pontosTemp);
 			fflush(stdin);
 			concorrentes[concorrenteTemp].pontos += pontosTemp;
