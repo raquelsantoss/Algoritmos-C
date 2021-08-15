@@ -8,7 +8,7 @@ int main(){
 	int numA, numB, contador, resultado = 0;
 	bool temSinal;
 	
-	printf("Informe os n�meros que deseja multiplicar: \n");
+	printf("Informe os números que deseja multiplicar: \n");
 	scanf("%d%d", &numA, &numB);
 	
 	
@@ -38,7 +38,7 @@ int main(){
 		resultado *= -1;
 	}
 	
-	printf("O resultado da multiplica��o entre %d e %d � %d", numA, numB, resultado);
+	printf("O resultado da multiplicação entre %d e %d é %d", numA, numB, resultado);
 
 	return 0;
 }
