@@ -15,7 +15,7 @@ int main() {
 	printf("Quantos Vinhos Branco tem no estoque? ");
 	scanf("%d", &vinhosBranco);
 	
-	printf("Quantos Vinhos Ros� tem no estoque? ");
+	printf("Quantos Vinhos Rosé tem no estoque? ");
 	scanf("%d", &vinhosRose);
 	
 	totalVinhos = vinhosTinto + vinhosBranco + vinhosRose;
@@ -27,7 +27,7 @@ int main() {
 	system("cls");
 	printf("Vinhos Tinto: %d (%.2f porcento)\n", vinhosTinto, porcentagemTinto);
 	printf("Vinhos Branco: %d (%.2f porcento)\n", vinhosBranco, porcentagemBranco);
-	printf("Vinhos Ros�: %d (%.2f porcento)\n", vinhosRose, porcentagemRose);
+	printf("Vinhos Rosé: %d (%.2f porcento)\n", vinhosRose, porcentagemRose);
 	
 	return 0;
 }
