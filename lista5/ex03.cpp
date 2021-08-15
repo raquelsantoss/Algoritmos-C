@@ -18,15 +18,15 @@ int main(){
 	
 	
 	printf("\n\n%d em octal: %o\n",a,a);
-	printf("%d em bin�rio: %s\n",a,b);
+	printf("%d em binário: %s\n",a,b);
 	printf("%d em hexadecimal: %x\n",a,a);
 
 	
 
     if (isalpha(c) == 0)
-         printf("%c n�o � uma string.", c);
+         printf("%c não é uma string.", c);
     else
-         printf("%c � uma string.", c);
+         printf("%c é uma string.", c);
 
     
 	return 0;
