@@ -1,6 +1,4 @@
-// Nome: Raquel dos Santos Rezende
-// Matricula: UC21100930 
-// Curso: Ciência da Computação
+
 
 #include<stdio.h> 
 #include<ctype.h> 
@@ -13,17 +11,17 @@ int maior, menor,contador=1,altura[4], alturaMulheres, media, mulheres=0, homens
 char sexo[10];
 	
 	for(contador=1;contador<=10;contador++){
-		printf("\nInforme a altura da %dª pessoa em cm: ", contador);
+		printf("\nInforme a altura da %dÂª pessoa em cm: ", contador);
 		scanf("%d",&altura[contador]);
 		fflush(stdin);
 		
-		printf("\nInforme o sexo da %dª pessoa [F|M]: ", contador);
+		printf("\nInforme o sexo da %dÂª pessoa [F|M]: ", contador);
 		scanf("%c",&sexo[contador]);
 		fflush(stdin);
 			sexo[contador] = toupper(sexo[contador]);
 			
 			if(altura[contador]<30){
-				printf("\nAltura inválida! Por favor, informar a altura em centímetros: ");
+				printf("\nAltura invÃ¡lida! Por favor, informar a altura em centÃ­metros: ");
 				scanf("%d", &altura[contador]);
 				fflush(stdin);}
 		if(contador==1){
@@ -42,10 +40,10 @@ char sexo[10];
 	
 	media = alturaMulheres/mulheres;
 	
-	printf("\nA Menor Altura é %d\n",menor);
-	printf("\nA Maior Altura é %d\n",maior);
-	printf("\nA Média de altura das mulheres é %d\n",media);
-	printf("\nA quantidade de homens é %d\n",homens);
+	printf("\nA Menor Altura Ã© %d\n",menor);
+	printf("\nA Maior Altura Ã© %d\n",maior);
+	printf("\nA MÃ©dia de altura das mulheres Ã© %d\n",media);
+	printf("\nA quantidade de homens Ã© %d\n",homens);
 	
 return 0;
 
