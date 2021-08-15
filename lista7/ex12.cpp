@@ -1,6 +1,4 @@
-//Nome: Raquel dos Santos Rezende 
-//Matricula: UC21100930
-//Curso: Ciência da Computação
+
 #include <stdio.h>
 
 
@@ -55,7 +53,7 @@ int main(){
 		}
 	}
 	printf("=======================================\n");
-	printf("\nDADOS COLETADOS DOS TRÊS FUNCIONARIOS:\n");
+	printf("\nDADOS COLETADOS DOS TRÃŠS FUNCIONARIOS:\n");
 	printf("\n");
 	printf("=======================================\n");	
 	for(counter = 1; counter <= 3; counter++){
