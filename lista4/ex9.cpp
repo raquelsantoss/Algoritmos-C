@@ -8,24 +8,24 @@ int main() {
 	
 	int numeroImaginado = 0, totalChutes = 0, numeroAtual = 0;
 	
-	printf("Qual o n�mero imaginado? ");
+	printf("Qual o número imaginado? ");
 	scanf("%d", &numeroImaginado);
 	
 	do {
-		printf("Qual o n�mero ser� chutado? ");
+		printf("Qual o número será chutado? ");
 		scanf("%d", &numeroAtual);
 		totalChutes++;
 		if(numeroAtual > numeroImaginado){
-			printf("\nVoc� errou!\n");
-			printf("Chute um n�mero menor!\n");
+			printf("\nVocê errou!\n");
+			printf("Chute um número menor!\n");
 		}else{
-			printf("\nVoc� errou!\n");
-			printf("Chute um n�mero maior!\n");
+			printf("\nVocê errou!\n");
+			printf("Chute um número maior!\n");
 		}
 	} while(numeroAtual != numeroImaginado);
 	
 	system("cls");
-	printf("N�mero Imaginado: %d \n", numeroImaginado);
+	printf("Número Imaginado: %d \n", numeroImaginado);
 	printf("Total Chutes: %d \n", totalChutes);
 	
 	return 0;
