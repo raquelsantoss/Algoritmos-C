@@ -8,7 +8,7 @@ int main(){
 	
 	int qntNumerosFibonacci = 20, fibonacci1 = 1, fibonacci2 = 1, soma = 0;
 	
-	printf("Sequ�ncia de Fibonacci:\n\n");
+	printf("Sequência de Fibonacci:\n\n");
 	
 	printf("%d, %d, ", fibonacci1, fibonacci2);
 	
