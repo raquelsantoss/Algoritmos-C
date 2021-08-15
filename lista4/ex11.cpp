@@ -10,7 +10,7 @@ int main() {
 	float mediaNumerosInformados = 0.0;
 	
 	do {
-		printf("Informe um n�mero: ");
+		printf("Informe um número: ");
 		scanf("%d", &numeroInformado);
 		
 		if(numeroInformado >= 2 && numeroInformado % 2 == 0) {
@@ -23,7 +23,7 @@ int main() {
 	mediaNumerosInformados /= quantidadeNumerosInformados;
 	
 	system("cls");
-	printf("\nA m�dia, dos n�meros pares, �: %.2f\n", mediaNumerosInformados);
+	printf("\nA média, dos números pares, é: %.2f\n", mediaNumerosInformados);
 	
 	return 0;
 }
