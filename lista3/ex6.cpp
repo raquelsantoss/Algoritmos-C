@@ -14,7 +14,7 @@ int main(){
 			printf("Digite o sexo (M - Masculino e F - Feminino): ");
 			scanf("%c", &sexo);
 		}
-		printf("\nQual � a nota? ");
+		printf("\nQual é a nota? ");
 		scanf("%f", &nota);
 		
 		if(nota >= 0){
@@ -33,8 +33,8 @@ int main(){
 	mediaHomens = mediaHomens / qntHomens;
 	mediaMulheres = mediaMulheres / qntMulheres;
 	
-	printf("\nA m�dia de nota dos %d homens: %.2f", qntHomens, mediaHomens);
-	printf("\nA m�dia de nota das %d mulheres: %.2f\n", qntMulheres, mediaMulheres);	
+	printf("\nA média de nota dos %d homens: %.2f", qntHomens, mediaHomens);
+	printf("\nA média de nota das %d mulheres: %.2f\n", qntMulheres, mediaMulheres);	
 	
 	return 0;
 }
