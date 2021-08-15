@@ -8,7 +8,7 @@ int main(){
 	int n, contador;
 	float resultado;
 
-	printf("\nF�rmula: H = 1/1+1/2+1/3+ ... +1/N.\n");
+	printf("\nFórmula: H = 1/1+1/2+1/3+ ... +1/N.\n");
 	printf("Informe o valor de N: ");
 	scanf("%d", &n);
 	
@@ -16,7 +16,7 @@ int main(){
 		resultado += 1.0/contador;
 	}
 	
-	printf("\nO valor de H �: %.2f \n", resultado);
+	printf("\nO valor de H é: %.2f \n", resultado);
 	
 	return 0;
 }
