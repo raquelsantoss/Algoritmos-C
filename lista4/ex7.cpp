@@ -42,9 +42,9 @@ int main() {
 	mediaAlturaMulheres /= qntMulheres;
 
 	system("cls");
-	printf("\n\nA maior altura �: %.2fm\n", maiorAltura);
-	printf("A menor altura �: %.2fm\n", menorAltura);
-	printf("A m�dia de altura das mulheres �: %.2fm\n\n", mediaAlturaMulheres);
+	printf("\n\nA maior altura é: %.2fm\n", maiorAltura);
+	printf("A menor altura é: %.2fm\n", menorAltura);
+	printf("A média de altura das mulheres é: %.2fm\n\n", mediaAlturaMulheres);
 
 	return 0;
 }
