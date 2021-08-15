@@ -15,7 +15,7 @@ int main() {
 		anos++;
 	}
 	
-	printf("\n\nFelisberto (%.2fm) ser� maior que Anacleto (%.2fm) em %d anos de crescimento.", felisbertoAltura, anacletoAltura, anos);
+	printf("\n\nFelisberto (%.2fm) será maior que Anacleto (%.2fm) em %d anos de crescimento.", felisbertoAltura, anacletoAltura, anos);
 	
 	return 0;
 }
