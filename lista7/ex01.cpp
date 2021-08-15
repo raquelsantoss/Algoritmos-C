@@ -1,6 +1,4 @@
-//Nome: Raquel dos Santos Rezende 
-//Matricula: UC21100930
-//Curso: Ciência da Computação
+
 #include<stdio.h>
 #include<locale.h>
 
@@ -10,7 +8,7 @@ int main(){
 	float reais[30];
 	
 	for(int i = 0; i < 30; i++){
-		printf("Digite a nota do aluno nº%i: ", i+1);
+		printf("Digite a nota do aluno nÂº%i: ", i+1);
 		scanf("%d", &reais[i]);
 		fflush(stdin);
 	}
