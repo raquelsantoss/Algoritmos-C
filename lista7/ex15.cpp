@@ -1,6 +1,4 @@
-//Nome: Raquel dos Santos Rezende 
-//Matricula: UC21100930
-//Curso: CiÍncia da ComputaÁ„o
+
 #include<stdio.h>
 #include<string.h>
 #include<locale.h>
@@ -15,7 +13,7 @@ int main(){
 	setlocale(LC_ALL,"Portuguese");
 	
 	printf("------------------------------\n");
-	printf("ordem alfabÈtica de uma string\n");
+	printf("ordem alfab√©tica de uma string\n");
 	printf("------------------------------\n");
 	
 		printf("Digite o tamanho da palavra: ");
@@ -26,8 +24,8 @@ int main(){
 			
 			if(tamanho<=0 || tamanho>30){
 				while(tamanho<=0 || tamanho>30){
-					printf("Tamanho mÌnimo n„o inv·lido!\n");
-					printf("Ou tamanho m·ximo estourado\n");
+					printf("Tamanho m√≠nimo n√£o inv√°lido!\n");
+					printf("Ou tamanho m√°ximo estourado\n");
 					printf("Digite o tamanho da palavra: ");
 						scanf("%d",&tamanho);
 			}
@@ -35,12 +33,12 @@ int main(){
 fflush(stdin);	
 for(i=0;i<tamanho;i++){
 	fflush(stdin);	
-	printf("Digite o %d∫ caractere da palavra: ",contador);
+	printf("Digite o %d¬∫ caractere da palavra: ",contador);
 		scanf("%c",&string[i]);
 		contador++;
 }
 
-printf("\nPressione qualquer bot„o para continuar!\n");
+printf("\nPressione qualquer bot√£o para continuar!\n");
 system("Pause");
 system("cls");
 
@@ -53,7 +51,7 @@ fflush(stdin);
 				printf("O caractere pesquisado se encontra na frase!\n");
 				break;
 			}else{
-				printf("O caractere pesquisado n„o se encontra na frase!\n");
+				printf("O caractere pesquisado n√£o se encontra na frase!\n");
 				break;
 			}
 		}
