@@ -9,12 +9,12 @@ int main(){
 	int primeiroNumero = 0, segundoNumero = 0;
 	
 	do {
-		printf("Informe o 1� N�mero: ");
+		printf("Informe o 1º Número: ");
 		scanf("%d", &primeiroNumero);
 	} while(primeiroNumero < 0);
 		
 	do {
-		printf("Informe o 2� N�mero: ");
+		printf("Informe o 2º Número: ");
 		scanf("%d", &segundoNumero);
 	} while(segundoNumero < 0);
 
