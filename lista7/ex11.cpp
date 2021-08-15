@@ -1,6 +1,4 @@
-//Nome: Raquel dos Santos Rezende 
-//Matricula: UC21100930
-//Curso: Ciência da Computação
+
 #include<stdio.h>
 
 int main(){
