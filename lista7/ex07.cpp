@@ -1,6 +1,4 @@
-//Nome: Raquel dos Santos Rezende 
-//Matricula: UC21100930
-//Curso: Ciência da Computação
+
 #include<stdio.h>
 #include <locale.h>
 
@@ -11,7 +9,7 @@ int main(){
 	float preco[100], precoAumento[100];
 	
 	for(contador=0;contador<100;contador++){
-	printf("digite o preço do CD %i: ",contador);
+	printf("digite o preÃ§o do CD %i: ",contador);
 	scanf("%f",&preco[contador]);
 	
 	printf("digite 1 se deseja finalizar: ");
@@ -19,7 +17,7 @@ int main(){
 	ciclo++;
 	if(opcao==1)contador=100;}
 	
-	printf("Opcoes de aumento de preço:  de 10 % ou o aumento customizado \n digite 1 para a primeira e 2 para a segunda opção: ");
+	printf("Opcoes de aumento de preÃ§o:  de 10 % ou o aumento customizado \n digite 1 para a primeira e 2 para a segunda opÃ§Ã£o: ");
 	scanf("%i",&opcao);
 	
 	switch(opcao){ 
@@ -38,7 +36,7 @@ int main(){
 	printf("o aumento foi de %i % \n",porcentagem);
 	
 	for(contador=0;contador<ciclo;contador++){
-		printf("o preço do CD %i era %.2f e passou a ser %.2f\n",contador,preco[contador],precoAumento[contador]);
+		printf("o preÃ§o do CD %i era %.2f e passou a ser %.2f\n",contador,preco[contador],precoAumento[contador]);
 	}
 
 	return 0;
