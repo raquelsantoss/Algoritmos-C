@@ -12,12 +12,12 @@ int main(){
 	float porcentagem;
 	
 	
-	printf("Digite um n�mero inteiro qualquer:\n");
+	printf("Digite um número inteiro qualquer:\n");
 	scanf("%d",&numero);
 	
 	porcentagem =  (numero * 555) * 100;
 	
-	printf("O porcentual do n�mero digitado na constante 555 �: %.2f",porcentagem);
+	printf("O porcentual do número digitado na constante 555 é: %.2f",porcentagem);
 	
 	return 0;
 	
