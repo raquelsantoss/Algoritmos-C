@@ -16,16 +16,16 @@ int main(){
 	struct Pais paises[2], primeiroPais, segundoPais, terceiroPais;
 	
 	for (int i = 0; i < 3; i++) {
-		printf("Qual o nome do %d� pa�s? ", i + 1);
+		printf("Qual o nome do %dº país? ", i + 1);
 		scanf("%s", &paises[i].nomePais);
 		
-		printf("Quantas medalhas de Ouro o pa�s %s ganhou? ", paises[i].nomePais);
+		printf("Quantas medalhas de Ouro o país %s ganhou? ", paises[i].nomePais);
 		scanf("%d", &paises[i].medalhasOuro);
 		
-		printf("Quantas medalhas de Prata o pa�s %s ganhou? ", paises[i].nomePais);
+		printf("Quantas medalhas de Prata o país %s ganhou? ", paises[i].nomePais);
 		scanf("%d", &paises[i].medalhasPrata);
 		
-		printf("Quantas medalhas de Bronze o pa�s %s ganhou? ", paises[i].nomePais);
+		printf("Quantas medalhas de Bronze o país %s ganhou? ", paises[i].nomePais);
 		scanf("%d", &paises[i].medalhasBronze);
 		
 		paises[i].pontuacaoTotal = (paises[i].medalhasOuro * pesoOuro) + (paises[i].medalhasPrata * pesoPrata) + (paises[i].medalhasBronze * pesoBronze);
@@ -44,9 +44,9 @@ int main(){
 		system("cls");
 	}
 		
-	printf("1� Pa�s: %s com %d pts. \n", primeiroPais.nomePais, primeiroPais.pontuacaoTotal);
-	printf("2� Pa�s: %s com %d pts. \n", segundoPais.nomePais, segundoPais.pontuacaoTotal);
-	printf("3� Pa�s: %s com %d pts. \n", terceiroPais.nomePais, terceiroPais.pontuacaoTotal);
+	printf("1° País: %s com %d pts. \n", primeiroPais.nomePais, primeiroPais.pontuacaoTotal);
+	printf("2° País: %s com %d pts. \n", segundoPais.nomePais, segundoPais.pontuacaoTotal);
+	printf("3° País: %s com %d pts. \n", terceiroPais.nomePais, terceiroPais.pontuacaoTotal);
 		
 	return 0;
 }
