@@ -1,6 +1,4 @@
-// Nome: Raquel dos Santos Rezende
-// Matricula: UC21100930 
-// Curso: Ciência da Computação
+
 
 #include<stdio.h> 
 #include<stdlib.h> 
@@ -12,7 +10,7 @@ int main() {
 	int numero, resultado, i = 1;
 	
 	do { 
-		printf("Insira um número inteiro para visualizar seu fatorial: ");
+		printf("Insira um nÃºmero inteiro para visualizar seu fatorial: ");
 		scanf("%i", &numero);
 		system("cls");
 	} while (numero < 0);
