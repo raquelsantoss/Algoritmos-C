@@ -12,7 +12,7 @@ int main(){
 	
 	int porcentagemAumento = 10, qntProdutos = 0;
 
-	printf("Quantos produtos voc� deseja cadastrar? ");
+	printf("Quantos produtos você deseja cadastrar? ");
 	scanf("%d", &qntProdutos);
 	
 	//corrigir e funcionar de acordo com o indice
@@ -35,7 +35,7 @@ int main(){
 	
 	printf("\n=-=-=-=- PRODUTOS -=-=-=-=\n\n");
 	for(int i = 0; i <= len; i++){
-		printf("Identificador: %d || Pre�o: R$ %.2f reais.\n", produtos[i].id, produtos[i].preco);
+		printf("Identificador: %d || Preço: R$ %.2f reais.\n", produtos[i].id, produtos[i].preco);
 	}
 	printf("\n=-=-=-=- PRODUTOS -=-=-=-=");
 	
