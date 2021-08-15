@@ -5,11 +5,11 @@
 int main(){
 	setlocale(LC_ALL, "Portuguese");
    int a,b,c,maior;
-printf("Digite um n�mero inteiro:\n"); 
+printf("Digite um número inteiro:\n"); 
 scanf("%d",&a); 
-printf("Digite o segundo n�mero inteiro:\n");
+printf("Digite o segundo número inteiro:\n");
 scanf("%d",&b);
-printf("Digite o terceiro n�mero inteiro:\n");
+printf("Digite o terceiro número inteiro:\n");
 scanf("%d",&c);
 
 maior = a; 
@@ -19,6 +19,6 @@ maior = a;
         maior = c;
     }
     system("cls");
-    printf(" O maior numero �: %d \n",maior);
+    printf(" O maior numero é: %d \n",maior);
    
 }
