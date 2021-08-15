@@ -9,13 +9,13 @@ int main(){
 	char nome[50],regiao[50];
 
 	
-	printf("Ol�, seja bem-vindo! Qual � o seu nome?\n");
+	printf("Olá, seja bem-vindo! Qual é o seu nome?\n");
 	fgets(nome,50,stdin);
-	printf("\n\nOk, %s Vamos descobrir qual regi�o do Brasil voc� gostaria de conhecer...\n\n", nome);
+	printf("\n\nOk, %s Vamos descobrir qual região do Brasil você gostaria de conhecer...\n\n", nome);
 	fflush(stdin);
 do {
 			
-		printf("[1] - Ver menu de op��es\n"); 
+		printf("[1] - Ver menu de opções\n"); 
 		printf("[0] - Pressione 0 para concluir a escolha\n");
 		
 		
@@ -24,9 +24,9 @@ do {
 		switch(Caso_regiao) 
 		{	
 			case 1:
-			printf("Escolha uma das op��es abaixo e digite 0 para concluir\n");
+			printf("Escolha uma das opções abaixo e digite 0 para concluir\n");
 			printf("=================\n");
-			printf(" Menu de op��es\n");
+			printf(" Menu de opções\n");
 			printf("=================\n");
 			printf("2 - Norte\n"); 
 			printf("3 - Nordeste\n");
@@ -58,7 +58,7 @@ do {
 		}
 	}while(Caso_regiao!=0);
 	 system("cls");
-	 printf("Voc� deseja conhecer a regi�o %s!", regiao);
+	 printf("Você deseja conhecer a região %s!", regiao);
 }
 	 
 	 
