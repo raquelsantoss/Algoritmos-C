@@ -9,7 +9,7 @@ int main(){
 	int mesmaAltura, contador = 1;
 
 	while(contador <= 10){
-		printf("Informe a altura da %d� pessoa: ", contador);
+		printf("Informe a altura da %dº pessoa: ", contador);
 		scanf("%f", &alturaAnalise);
 		
 		if(alturaAnalise == menorAltura) {
