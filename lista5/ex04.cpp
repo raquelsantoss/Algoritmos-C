@@ -8,14 +8,14 @@ int main(){
 	int Caso_loja;
 	char movel[50], nome[50];
 	
-	printf("Ol�, seja bem-vindo! Qual � o seu nome?\n");
+	printf("Olá, seja bem-vindo! Qual é o seu nome?\n");
 	fgets(nome,50,stdin);
-	printf("\n\nOk, %s vamos te apresentar os m�veis dispon�veis da nossa loja...\n\n", nome);
+	printf("\n\nOk, %s vamos te apresentar os móveis disponíveis da nossa loja...\n\n", nome);
 	fflush(stdin);
 	
 	do {
 			
-		printf("[1] - Ver lista de m�veis\n"); 
+		printf("[1] - Ver lista de móveis\n"); 
 		printf("[0] - Pressione 0 para concluir a escolha\n");
 		
 		
@@ -24,9 +24,9 @@ int main(){
 		switch(Caso_loja) 
 		{	
 			case 1:
-			printf("Escolha uma das op��es abaixo e digite 0 para concluir\n");
+			printf("Escolha uma das opções abaixo e digite 0 para concluir\n");
 			printf("=====================================\n");	
-			printf(" Loja Info - m�veis dispon�veis\n");
+			printf(" Loja Info - móveis disponíveis\n");
 			printf("==================================\n");
 			printf("1 - Cadeira\n"); 
 			printf("2 - mesa de computador\n");
@@ -53,13 +53,13 @@ int main(){
 		break;
 		
 		default:
-			printf("\n\nHumm op��o inv�lida, ainda n�o temos este item na loja!\n");
+			printf("\n\nHumm opção inválida, ainda não temos este item na loja!\n");
 			
 			}
 	}while(Caso_loja!=0);
 			
 	 system("cls");
-	 printf("Voc� solicitou a op��o: %s!", movel);
+	 printf("Você solicitou a opção: %s!", movel);
 			 
 }
 	
