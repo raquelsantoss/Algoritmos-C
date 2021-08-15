@@ -13,16 +13,16 @@ int main() {
 	do {
 		do{
 			system("cls");
-			printf("\n\nInforme o c�digo, sabendo que: \n\n");
-			printf("[1] � Primeiro Candidato\n");
-			printf("[2] � Segundo Candidato\n");
-			printf("[3] � Terceiro Candidato\n");
-			printf("[4] � Quarto Candidato\n");
-			printf("[5] � Voto Nulo\n");
-			printf("[6] � Voto em Branco\n");
-			printf("[7] � Encerrar Vota��o\n\n");
+			printf("\n\nInforme o código, sabendo que: \n\n");
+			printf("[1] » Primeiro Candidato\n");
+			printf("[2] » Segundo Candidato\n");
+			printf("[3] » Terceiro Candidato\n");
+			printf("[4] » Quarto Candidato\n");
+			printf("[5] » Voto Nulo\n");
+			printf("[6] » Voto em Branco\n");
+			printf("[7] » Encerrar Votação\n\n");
 			
-			printf("Qual o c�digo? ");
+			printf("Qual o código? ");
 			scanf("%d", &codigo);
 		}while(codigo < 1 || codigo > 7);
 		
@@ -55,13 +55,13 @@ int main() {
 	
 	system("cls");
 	
-	printf("\n\n========= RELAT�RIO VOTA��O =========\n\n");
+	printf("\n\n========= RELATóRIO VOTAçãO =========\n\n");
 	printf("Primeiro Candidato: %.0f (%.2f) \n", votosCandidato1, (float) (votosCandidato1/totalVotos) * 100);
 	printf("Segundo Candidato: %.0f (%.2f) \n", votosCandidato2, (float) (votosCandidato2/totalVotos) * 100);
 	printf("Terceiro Candidato: %.0f (%.2f) \n", votosCandidato3, (float) (votosCandidato3/totalVotos) * 100);
 	printf("Quarto Candidato: %.0f (%.2f) \n", votosCandidato4, (float) (votosCandidato4/totalVotos) * 100);
 	printf("Votos Nulos: %.0f (%.2f) \n", votosNulo, (float) (votosNulo/totalVotos) * 100);
 	printf("Votos em Branco: %.0f (%.2f)", votosBranco, (float) (votosBranco/totalVotos) * 100);
-	printf("\n\n========= RELAT�RIO VOTA��O =========\n");
+	printf("\n\n========= RELATóRIO VOTAçãoO =========\n");
 	return 0;
 }
