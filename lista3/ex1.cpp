@@ -7,7 +7,7 @@ int main(){
 	
 	int numFat, contador, resultadoFat = 1;
 	
-	printf("Informe o n�mero que deseja para  calcular o fatorial: ");
+	printf("Informe o número que deseja para  calcular o fatorial: ");
 	scanf("%d", &numFat);
 	
 	if(numFat> 0){
@@ -16,7 +16,7 @@ int main(){
 		}
 	}
 	
-	printf("O valor do fatorial %d! � de %d", numFat, resultadoFat);
+	printf("O valor do fatorial %d! é de %d", numFat, resultadoFat);
 	
 	return 0;
 }
