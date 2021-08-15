@@ -1,6 +1,4 @@
-//Nome: Raquel dos Santos Rezende 
-//Matricula: UC21100930
-//Curso: Ciência da Computação
+
 #include<stdio.h>
 #include<locale.h>
 #include<stdlib.h>
@@ -12,7 +10,7 @@ int main(){
 		setlocale(LC_ALL, "Portuguese_Brazil");
 	
 	printf("---------------------\n");
-	printf("Concatenação de Vetor\n");
+	printf("ConcatenaÃ§Ã£o de Vetor\n");
 	printf("---------------------\n");
 
 
@@ -79,7 +77,7 @@ printf("\n");
 				printf("O valor digitado se encontra no vetor");
 				break;
 			}else{
-				printf("O valor digitado não se encontra no vetor");
+				printf("O valor digitado nÃ£o se encontra no vetor");
 				break;
 			}
 		}
