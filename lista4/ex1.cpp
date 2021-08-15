@@ -13,7 +13,7 @@ int main(){
 	} while(dia < 1 || dia > 31);
 
 	do {
-		printf("Informe o m�s: ");
+		printf("Informe o mês: ");
 		scanf("%d", &mes);
 	} while(mes < 1 || mes > 12);
 	
@@ -23,13 +23,13 @@ int main(){
 	} while(dia < 1 || dia > 31);
 	
 	if((mes == 2) && (dia > 29) ){
-		printf("O dia %d � inv�lido para o m�s %d", dia, mes);
+		printf("O dia %d é inválido para o mês %d", dia, mes);
 	}else if((mes != 2) && !((dia == 31) && (mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12))){
-		printf("O dia %d � inv�lido para o m�s %d", dia, mes);
+		printf("O dia %d é inválido para o mês %d", dia, mes);
 	}else if(!((mes == 2) && (dia == 29) && (ano % 4 == 0))){
-		printf("%d n�o � um ano bissexto, portanto, n�o h� o 29� dia.", ano);
+		printf("%d não é um ano bissexto, portanto, não há o 29º dia.", ano);
 	}else{
-		printf("A data %d/%d/%d � v�lida", dia, mes, ano);
+		printf("A data %d/%d/%d é válida", dia, mes, ano);
 	}
 	
 	
