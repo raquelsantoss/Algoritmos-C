@@ -1,6 +1,4 @@
-// Nome: Raquel dos Santos Rezende
-// Matricula: UC21100930 
-// Curso: Ciência da Computação
+
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -11,7 +9,7 @@ int main(){
 	
 	int i, num;
 	
-	printf("Digite um número inteiro de 1 a 2000: ");
+	printf("Digite um nÃºmero inteiro de 1 a 2000: ");
 	scanf("%d", &num);
 	fflush(stdin);
 	
@@ -22,7 +20,7 @@ int main(){
 		}
 	} else{
 		system("cls");
-		printf("\n\n\n       %d - limite de cálculo excedido\n\n\n", num);
+		printf("\n\n\n       %d - limite de cÃ¡lculo excedido\n\n\n", num);
 	}
 	
 	return 0;
