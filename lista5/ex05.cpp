@@ -15,5 +15,5 @@ int main() {
 		system("cls");
 	} while (tolower(sexo) != 'f' && tolower(sexo) != 'm');
 
-	printf("Esse sexo por extenso �: %s", tolower(sexo) == 'm' ? "Masculino" : "Feminino");
+	printf("Esse sexo por extenso é: %s", tolower(sexo) == 'm' ? "Masculino" : "Feminino");
 }
