@@ -9,10 +9,10 @@ int main(){
 
     for(i = 0; i < 3; i++)
     {
-          printf("\nDigite o %d� n�mero: ", i + 1);
+          printf("\nDigite o %dº número: ", i + 1);
           scanf ("%d",&num[i]);
     }
-     printf("\n\Nn�meros na ordem crescente:\n\n");
+     printf("\n\Números na ordem crescente:\n\n");
 
     for (i = 0; i < 3; i++)
     {
